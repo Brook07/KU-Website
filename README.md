@@ -1,2 +1,2 @@
 # KU-Website
-This is My 11th class Final Project  using HTML,CSS,JS.
+This is My +2 class Final Project  using HTML,CSS,JS.
