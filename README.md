@@ -1,2 +1,2 @@
 # KU-Website
-This is my Project  using HTML,CSS,JS.
+This is my Web Project  using HTML,CSS,JS.
