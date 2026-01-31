@@ -1,36 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>About</title>
+	<title>About - Kathmandu University</title>
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-	<i>
-	<section class=" sub-header">
+	<section class="sub-header">
 		<nav>
-			<a href="index.html"><img src="images/KU LOGO.png"></a>
+			<a href="index.html"><img src="images/ku_logo.png" alt="Kathmandu University Logo"></a>
 			<div class="nav-links" id="navLinks">
 				<i class="fa fa-times" onclick="hideMenu()"></i>
 				<ul>
 					<li><a href="index.html">Home</a></li>
-<b><li><a href="About.html">About</a></li>
-<li><a href="Course.html">Course</a></li>
-<li><a href="gallery.html">Gallery</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-
-</div>
-<i class="fa fa-bars" onclick="showMenu()"></i>
-</nav>
-<h1>About Us</h1>
-</section>
-<!-----about us---->
-
-<section class="row">
+					<li><a href="About.html">About</a></li>
+					<li><a href="Course.html">Course</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>About Us</h1>
+	</section>
 	
-	<div class="about-col">
+	<!-----about us---->
+	<section class="about">
+		<div class="about-col">
 		<p>
 Kathmandu University (KU) is an autonomous, not-for-profit, self-funding public institution established by an Act of Parliament in December 1991. It is an institution of higher learning dedicated to maintaining the standard of academic excellence in various classical and professional disciplines.<br>
 The mission statement of the University is “to provide quality education for leadership”. The vision is “to become a world-class university devoted to bringing knowledge and technology to the service of mankind”.<br>
@@ -44,57 +45,36 @@ KU runs academic programs most of which are credited for being introduced for th
 The University marked the year 2016 as its Silver Jubilee Year. On the occasion of the Silver Jubilee celebrations, Prof. Dr. Ram Kantha Makaju Shrestha, the then Vice-Chancellor, brought forward a vision document, Silver Jubilee Initiatives – Vision 2030, which pledges thrust for quality, innovation, equity, identity, impact and global engagement. These initiatives, founded on the University’s key achievements for 25 years in quality education, will remain instrumental towards achieving the status of a world-class university.<br>
 
 </p>
-			</div>
 		</div>
-</section>
-<!-------Coure---->
+	</section>
 
-<!--------campus------>
+	<!-----footer---->
+	<footer class="footer">
+		<h4>About Kathmandu University</h4>
+		<p>Visit us for more details about our programs and facilities.</p>
+		
+		<div class="icons">
+			<a href="#" aria-label="Facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+			<a href="#" aria-label="Instagram"><ion-icon name="logo-instagram"></ion-icon></a>
+			<a href="#" aria-label="Twitter"><ion-icon name="logo-twitter"></ion-icon></a>
+			<a href="#" aria-label="Google"><ion-icon name="logo-google"></ion-icon></a>
+			<a href="#" aria-label="Skype"><ion-icon name="logo-skype"></ion-icon></a>
+		</div>
+		
+		<p>© Copyright 2026. All Rights Reserved. Kathmandu University</p>
+	</footer>
 
-<div class="footer">
-	<h4>About</h4>
-	<p>Visit Us for more detail..</p>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>KTM</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-
-                    <div class="icons">
-                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
-                    </div>
-
-                </div>
-                    </div>
-                </div>
-        </div>
-    </div>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-</body>
-</html>
-	<CENTER><p>© Copyright 2023. All Rights Reserved.</p></CENTER>
-</div>
-</section>
-
-
-<!------JavaScript FOR TOGGLE menu----->
-<script>
-	var navLinks = document.getElementById("navLinks");
-function showMenu(){
-	navLinks.style.right ="0";
-}
-function hideMenu(){
-	navLinks.style.right ="-200px";
-}
-</script>
+	<!------JavaScript FOR TOGGLE menu----->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+	<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
 </body>
-</i>
 </html>
